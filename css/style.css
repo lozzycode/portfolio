@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    font-family: helvetica;
+  }
+  
+  html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: grey;
+  }
+  
+  h1 {
+    margin: 0;
+  }
+
+  .heading {
+    background: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0 10px;
+  }
+
+  .loz-pic {
+    width: 100px;
+    padding-left: 10px;
+  }
+
+  .heading-content {
+    padding-left: 10px;
+  }
+
+  .heading-content h2{
+    margin: 0;
+  }
+
+  .heading-content h3{
+    margin: 0;
+    padding-top: 10px;
+    color: grey;
+  }
+  
+  .container {
+    width: 100%;
+    max-width: 1000px;
+    margin: 15px auto;
+    padding: 0 15px;
+    /* border: solid 1px red; */
+  }
+
+  .navigation {
+    display: flex;
+    justify-content:space-around;
+    background-color: #343a40;
+    color: white;
+    padding: 10px 25px;
+  }
+
+  .navigation .links {
+    
+  }
+
+  .nav-link {
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  .nav-link:hover {
+    color: grey;
+    background-color: black;
+  }
+
+  
+  .columns {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+  
+  .button {
+    text-decoration: none;
+    color: white;
+    background-color: #037bff;
+    border-radius: 5px;
+    border: 0;
+    padding: 10px;
+  }
+  
+  .footer {
+    border-top: 1px solid black;
+    font-size: 15px;
+    padding: 10px 0;
+    margin-top: 60px;
+  }
